@@ -1,3 +1,5 @@
+# copyjs
+
 ![copyjs](https://github.com/victusfate/copyjs/raw/master/copy.jpg)
 copyjs is for deep copies of javascript objects
 ===
