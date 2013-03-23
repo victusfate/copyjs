@@ -6,15 +6,21 @@ copyjs is for deep copies of javascript objects
 npm install copyjs
 </pre>
 
-    var copy = require('copyjs')
-    var a = { val: 15, business:'isGood' };
-    var b = copy(a);
-    console.log('object a,b',a,b);
-    #
-    b.val = 8000;
-    b.business = 'isBetter';
-    console.log('object a,b',a,b);
-    #
+	var a = {
+	  val: 15,
+	  business: 'isGood'
+	};
+
+	var b = copy(a);
+
+    #  object a { val: 15, business: 'isGood' }
+    #  object b { val: 15, business: 'isGood' }
+
+	b.val = 8000;
+	b.business = 'isBetter';
+
+	#  object a { val: 15, business: 'isGood' }
+	#  object b { val: 8000, business: 'isBetter' }
 
 license: BSD
 
