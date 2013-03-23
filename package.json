@@ -1,7 +1,7 @@
 {
   "name": "copyjs",
-  "version": "0.0.2",
-  "description": "",
+  "version": "0.0.3",
+  "description": "copyjs is for deep copies of javascript objects",
   "main": "copyjs.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
