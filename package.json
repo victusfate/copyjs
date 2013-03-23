@@ -6,14 +6,13 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": "",
+  "repository": "https://github.com/victusfate/copyjs",
   "keywords": [
     "copy",
     "deep copy",
     "javascript",
     "coffeescript"
   ],
-  "repository": "https://github.com/victusfate/copyjs",
   "scripts": {
       "pretest": "cake build",
       "prepublish": "cake build"
