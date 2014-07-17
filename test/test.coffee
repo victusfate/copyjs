@@ -85,3 +85,9 @@ log '  object b',b
 
 log ''
 
+a = new Uint8Array(10)
+a[i] = parseInt(i,10) for i in [0..10]
+b = copy a
+b[4] = 17
+log 'a',a
+log 'b',b

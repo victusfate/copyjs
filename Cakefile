@@ -10,7 +10,9 @@ build = (callback) ->
     throw new Error(err) if err
     exec "coffee --compile --output lib/ src/", (err, stdout, stderr) ->
       throw new Error(err) if err
-      callback() if callback
+      exec "coffee --compile --output test/ test/", (err, stdout, stderr) ->
+        throw new Error(err) if err
+        callback() if callback
    
 removeJS = (callback) ->
   exec 'rm -fr lib/', (err, stdout, stderr) ->
