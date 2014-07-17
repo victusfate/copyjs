@@ -28,4 +28,6 @@ license: BSD
 
 notes:
 I would have used https://npmjs.org/package/copy but I couldn't find/see their source
+Ok, that source is linked now https://github.com/evlun/copy and they even support packed arrays and buffers efficiently.
+
 
